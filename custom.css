@@ -1,0 +1,13 @@
+/* Created By Stefan Avey for minor adjustments */
+
+p { font-size: 125%; }
+
+li { font-size: 125%; }
+
+.col-sm-8 {
+  width:76% !important;
+}
+
+.col-sm-4{
+  width:24% !important;
+}
