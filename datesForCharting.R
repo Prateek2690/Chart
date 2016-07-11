@@ -66,7 +66,7 @@ datesN0 <- function(from = from, to = to, datediff_ = 'days') {
 
 asDDMM <- function(dateOrg = '2013-04-02'){
   
-  return(paste(paste(substr(dateOrg, 9,10), " ",month(as.Date('2013-04-02'), label = TRUE),sep ="")))
+  return(paste(paste(substr(dateOrg, 9,10), " ",month(as.Date(dateOrg), label = TRUE),sep ="")))
   
 }
 
